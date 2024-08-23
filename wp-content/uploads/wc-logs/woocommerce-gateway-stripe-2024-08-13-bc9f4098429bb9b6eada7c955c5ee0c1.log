@@ -1,0 +1,18 @@
+2024-08-13T08:27:18+00:00 DEBUG 
+====Stripe Version: 8.0.1====
+====Start Log====
+account
+====End Log====
+
+2024-08-13T08:27:20+00:00 DEBUG 
+====Stripe Version: 8.0.1====
+====Start Log====
+Error: Unable to verify domain - We were not able to verify your domain. To verify with Apple that you control your domain, you must host the verification file at https://54.234.120.212/.well-known/apple-developer-merchantid-domain-association. You can find the verification file here: https://stripe.com/files/apple-pay/apple-developer-merchantid-domain-association. For more information, see https://stripe.com/docs/payments/payment-methods/pmd-registration.
+====End Log====
+
+2024-08-13T08:27:20+00:00 DEBUG 
+====Stripe Version: 8.0.1====
+====Start Log====
+Your domain has been verified with Apple Pay!
+====End Log====
+

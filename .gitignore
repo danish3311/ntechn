@@ -1,0 +1,5 @@
+# Ignore backup directories in wp-content
+/wp-content/updraft/
+/wp-content/aiowps_backups/
+/wp-content/ai1wm-backups/
+/backup/

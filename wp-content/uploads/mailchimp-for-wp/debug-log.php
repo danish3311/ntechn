@@ -1,0 +1,20 @@
+<?php exit; ?>
+[2024-03-18 11:06:37] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-18 11:06:45] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-18 21:05:27] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-18 23:08:13] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-18 23:08:17] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-18 23:08:20] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-18 23:08:25] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-18 23:08:28] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-19 11:09:56] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-19 11:50:21] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-19 11:50:40] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-19 11:50:46] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-20 12:58:40] WARNING: Custom > Unable to find EMAIL field.
+[2024-03-21 02:39:15] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-21 02:39:18] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-21 02:39:26] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-21 02:39:37] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-21 02:39:40] WARNING: Custom > No Mailchimp lists were selected
+[2024-03-21 02:39:42] WARNING: Custom > No Mailchimp lists were selected

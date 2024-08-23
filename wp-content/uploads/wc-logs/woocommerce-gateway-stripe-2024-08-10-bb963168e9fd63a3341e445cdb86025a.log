@@ -1,0 +1,553 @@
+2024-08-10T13:30:08+00:00 DEBUG 
+====Stripe Version: 8.0.1====
+====Start Log====
+payment_methods/pm_1PmFMwCluteTbz2yXHC6CMrJ
+====End Log====
+
+2024-08-10T13:30:08+00:00 DEBUG 
+====Stripe Version: 8.0.1====
+====Start Log====
+customers request: Array
+(
+    [email] => AvadVt@gmail.com
+    [description] => Name: Ava Ross, Guest
+    [name] => Ava Ross
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+    [address] => Array
+        (
+            [line1] => 15 4th St
+            [line2] => 
+            [postal_code] => 98855
+            [city] => Tonasket
+            [state] => WA
+            [country] => US
+        )
+
+)
+
+====End Log====
+
+2024-08-10T13:30:09+00:00 DEBUG 
+====Stripe Version: 8.0.1====
+====Start Log====
+Info: Begin processing payment for order 13130 for the amount of 199
+====End Log====
+
+2024-08-10T13:30:09+00:00 DEBUG 
+====Stripe Version: 8.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 19900
+    [currency] => usd
+    [description] => NTECHSMARTHOMES - Order 13130
+    [metadata] => Array
+        (
+            [customer_name] => Ava Ross
+            [customer_email] => AvadVt@gmail.com
+            [order_id] => 13130
+            [site_url] => https://ntechsmarthomes.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1PmFMwCluteTbz2yXHC6CMrJ
+    [customer] => cus_QdWPDD0HPWWmSx
+)
+
+====End Log====
+
+2024-08-10T13:30:09+00:00 DEBUG 
+====Stripe Version: 8.0.1====
+====Start Log====
+Stripe PaymentIntent pi_3PmFMzCluteTbz2y1Pnwp3k0 initiated for order 13130
+====End Log====
+
+2024-08-10T13:30:09+00:00 DEBUG 
+====Stripe Version: 8.0.1====
+====Start Log====
+payment_intents/pi_3PmFMzCluteTbz2y1Pnwp3k0/confirm request: Array
+(
+    [payment_method] => pm_1PmFMwCluteTbz2yXHC6CMrJ
+    [level3] => Array
+        (
+            [merchant_reference] => 13130
+            [shipping_amount] => 0
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 5489
+                            [product_description] => Subwoofer Installation
+                            [unit_cost] => 19900
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_from_zip] => 21044
+        )
+
+)
+
+====End Log====
+
+2024-08-10T13:30:10+00:00 DEBUG 
+====Stripe Version: 8.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_3PmFMzCluteTbz2y1dRh5Ge8
+            [code] => card_declined
+            [decline_code] => fraudulent
+            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+            [message] => Your card was declined.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3PmFMzCluteTbz2y1Pnwp3k0
+                    [object] => payment_intent
+                    [amount] => 19900
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3PmFMzCluteTbz2y1dRh5Ge8
+                                            [object] => charge
+                                            [amount] => 19900
+                                            [amount_captured] => 0
+                                            [amount_refunded] => 0
+                                            [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Tonasket
+                                                            [country] => US
+                                                            [line1] => 15 4th St
+                                                            [line2] => 
+                                                            [postal_code] => 98855
+                                                            [state] => 
+                                                        )
+
+                                                    [email] => AvadVt@gmail.com
+                                                    [name] => Ava Ross
+                                                    [phone] =>  15094864808
+                                                )
+
+                                            [calculated_statement_descriptor] => 
+                                            [captured] => 
+                                            [created] => 1723296610
+                                            [currency] => usd
+                                            [customer] => cus_QdWPDD0HPWWmSx
+                                            [description] => NTECHSMARTHOMES - Order 13130
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => card_declined
+                                            [failure_message] => Your card was declined.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                    [stripe_report] => fraudulent
+                                                )
+
+                                            [invoice] => 
+                                            [level3] => stdClass Object
+                                                (
+                                                    [line_items] => Array
+                                                        (
+                                                            [0] => stdClass Object
+                                                                (
+                                                                    [discount_amount] => 0
+                                                                    [product_code] => 5489
+                                                                    [product_description] => Subwoofer Installation
+                                                                    [quantity] => 1
+                                                                    [tax_amount] => 0
+                                                                    [unit_cost] => 19900
+                                                                )
+
+                                                        )
+
+                                                    [merchant_reference] => 13130
+                                                    [shipping_amount] => 0
+                                                    [shipping_from_zip] => 21044
+                                                )
+
+                                            [livemode] => 1
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_id] => 13130
+                                                    [site_url] => https://ntechsmarthomes.com
+                                                    [customer_email] => AvadVt@gmail.com
+                                                    [customer_name] => Ava Ross
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => not_sent_to_network
+                                                    [reason] => highest_risk_level
+                                                    [risk_level] => highest
+                                                    [rule] => block_if_high_risk
+                                                    [seller_message] => Stripe blocked this payment as too risky.
+                                                    [type] => blocked
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_3PmFMzCluteTbz2y1Pnwp3k0
+                                            [payment_method] => pm_1PmFMwCluteTbz2yXHC6CMrJ
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [amount_authorized] => 
+                                                            [authorization_code] => 
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => unavailable
+                                                                    [address_postal_code_check] => unavailable
+                                                                    [cvc_check] => 
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 11
+                                                            [exp_year] => 2024
+                                                            [extended_authorization] => stdClass Object
+                                                                (
+                                                                    [status] => disabled
+                                                                )
+
+                                                            [fingerprint] => 6cpXXVa0KTQGFLxn
+                                                            [funding] => credit
+                                                            [incremental_authorization] => stdClass Object
+                                                                (
+                                                                    [status] => unavailable
+                                                                )
+
+                                                            [installments] => 
+                                                            [last4] => 3578
+                                                            [mandate] => 
+                                                            [multicapture] => stdClass Object
+                                                                (
+                                                                    [status] => unavailable
+                                                                )
+
+                                                            [network] => visa
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [overcapture] => stdClass Object
+                                                                (
+                                                                    [maximum_amount_capturable] => 19900
+                                                                    [status] => unavailable
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => 
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3PmFMzCluteTbz2y1dRh5Ge8/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => 
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/charges?payment_intent=pi_3PmFMzCluteTbz2y1Pnwp3k0
+                        )
+
+                    [client_secret] => pi_3PmFMzCluteTbz2y1Pnwp3k0_secret_k1UGsOVq3tHZ87uVF9sBJsTlu
+                    [confirmation_method] => automatic
+                    [created] => 1723296609
+                    [currency] => usd
+                    [customer] => cus_QdWPDD0HPWWmSx
+                    [description] => NTECHSMARTHOMES - Order 13130
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_3PmFMzCluteTbz2y1dRh5Ge8
+                            [code] => card_declined
+                            [decline_code] => fraudulent
+                            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+                            [message] => Your card was declined.
+                            [payment_method] => stdClass Object
+                                (
+                                    [id] => pm_1PmFMwCluteTbz2yXHC6CMrJ
+                                    [object] => payment_method
+                                    [allow_redisplay] => unspecified
+                                    [billing_details] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Tonasket
+                                                    [country] => US
+                                                    [line1] => 15 4th St
+                                                    [line2] => 
+                                                    [postal_code] => 98855
+                                                    [state] => 
+                                                )
+
+                                            [email] => AvadVt@gmail.com
+                                            [name] => Ava Ross
+                                            [phone] =>  15094864808
+                                        )
+
+                                    [card] => stdClass Object
+                                        (
+                                            [brand] => visa
+                                            [checks] => stdClass Object
+                                                (
+                                                    [address_line1_check] => unavailable
+                                                    [address_postal_code_check] => unavailable
+                                                    [cvc_check] => 
+                                                )
+
+                                            [country] => US
+                                            [display_brand] => visa
+                                            [exp_month] => 11
+                                            [exp_year] => 2024
+                                            [fingerprint] => 6cpXXVa0KTQGFLxn
+                                            [funding] => credit
+                                            [generated_from] => 
+                                            [last4] => 3578
+                                            [networks] => stdClass Object
+                                                (
+                                                    [available] => Array
+                                                        (
+                                                            [0] => visa
+                                                        )
+
+                                                    [preferred] => 
+                                                )
+
+                                            [three_d_secure_usage] => stdClass Object
+                                                (
+                                                    [supported] => 1
+                                                )
+
+                                            [wallet] => 
+                                        )
+
+                                    [created] => 1723296606
+                                    [customer] => 
+                                    [livemode] => 1
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [type] => card
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [latest_charge] => ch_3PmFMzCluteTbz2y1dRh5Ge8
+                    [level3] => stdClass Object
+                        (
+                            [line_items] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [discount_amount] => 0
+                                            [product_code] => 5489
+                                            [product_description] => Subwoofer Installation
+                                            [quantity] => 1
+                                            [tax_amount] => 0
+                                            [unit_cost] => 19900
+                                        )
+
+                                )
+
+                            [merchant_reference] => 13130
+                            [shipping_amount] => 0
+                            [shipping_from_zip] => 21044
+                        )
+
+                    [livemode] => 1
+                    [metadata] => stdClass Object
+                        (
+                            [order_id] => 13130
+                            [site_url] => https://ntechsmarthomes.com
+                            [customer_email] => AvadVt@gmail.com
+                            [customer_name] => Ava Ross
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_configuration_details] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => 
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [payment_method] => stdClass Object
+                (
+                    [id] => pm_1PmFMwCluteTbz2yXHC6CMrJ
+                    [object] => payment_method
+                    [allow_redisplay] => unspecified
+                    [billing_details] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Tonasket
+                                    [country] => US
+                                    [line1] => 15 4th St
+                                    [line2] => 
+                                    [postal_code] => 98855
+                                    [state] => 
+                                )
+
+                            [email] => AvadVt@gmail.com
+                            [name] => Ava Ross
+                            [phone] =>  15094864808
+                        )
+
+                    [card] => stdClass Object
+                        (
+                            [brand] => visa
+                            [checks] => stdClass Object
+                                (
+                                    [address_line1_check] => unavailable
+                                    [address_postal_code_check] => unavailable
+                                    [cvc_check] => 
+                                )
+
+                            [country] => US
+                            [display_brand] => visa
+                            [exp_month] => 11
+                            [exp_year] => 2024
+                            [fingerprint] => 6cpXXVa0KTQGFLxn
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 3578
+                            [networks] => stdClass Object
+                                (
+                                    [available] => Array
+                                        (
+                                            [0] => visa
+                                        )
+
+                                    [preferred] => 
+                                )
+
+                            [three_d_secure_usage] => stdClass Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1723296606
+                    [customer] => 
+                    [livemode] => 1
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/acct_1OuwefCluteTbz2y/logs/req_54lh6RG2YuESCo?t=1723296609
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+

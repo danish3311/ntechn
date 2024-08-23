@@ -1,0 +1,914 @@
+
+@font-face {
+  font-family: "priotech-icon";
+  src: url("../../../fonts/icons/priotech-icon-2.0.0.eot");
+  src: url("../../../fonts/icons/priotech-icon-2.0.0.eot?#iefix") format("eot"), url("../../../fonts/icons/priotech-icon-2.0.0.woff2") format("woff2"), url("../../../fonts/icons/priotech-icon-2.0.0.woff") format("woff"), url("../../../fonts/icons/priotech-icon-2.0.0.ttf") format("truetype"), url("../../../fonts/icons/priotech-icon-2.0.0.svg#priotech-icon-2.0.0") format("svg");
+}
+[class*=priotech-icon-] {
+  font-family: "priotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.priotech-icon-account:before {
+  content: "";
+}
+
+.priotech-icon-angle-down:before {
+  content: "";
+}
+
+.priotech-icon-angle-down1:before {
+  content: "";
+}
+
+.priotech-icon-angle-down2:before {
+  content: "";
+}
+
+.priotech-icon-angle-left:before {
+  content: "";
+}
+
+.priotech-icon-angle-right:before {
+  content: "";
+}
+
+.priotech-icon-angle-right1:before {
+  content: "";
+}
+
+.priotech-icon-angle-up:before {
+  content: "";
+}
+
+.priotech-icon-avatar:before {
+  content: "";
+}
+
+.priotech-icon-breadcrumb:before {
+  content: "";
+}
+
+.priotech-icon-bullet-list-line:before {
+  content: "";
+}
+
+.priotech-icon-card:before {
+  content: "";
+}
+
+.priotech-icon-chat1:before {
+  content: "";
+}
+
+.priotech-icon-clock:before {
+  content: "";
+}
+
+.priotech-icon-clock1:before {
+  content: "";
+}
+
+.priotech-icon-clock2:before {
+  content: "";
+}
+
+.priotech-icon-coupon:before {
+  content: "";
+}
+
+.priotech-icon-credit-card1:before {
+  content: "";
+}
+
+.priotech-icon-customer-care:before {
+  content: "";
+}
+
+.priotech-icon-delivery:before {
+  content: "";
+}
+
+.priotech-icon-delivery2:before {
+  content: "";
+}
+
+.priotech-icon-ecological:before {
+  content: "";
+}
+
+.priotech-icon-eye-o:before {
+  content: "";
+}
+
+.priotech-icon-facebook-o:before {
+  content: "";
+}
+
+.priotech-icon-fast-delivery1:before {
+  content: "";
+}
+
+.priotech-icon-featured:before {
+  content: "";
+}
+
+.priotech-icon-filters:before {
+  content: "";
+}
+
+.priotech-icon-free-delivery:before {
+  content: "";
+}
+
+.priotech-icon-heart-o:before {
+  content: "";
+}
+
+.priotech-icon-help-center:before {
+  content: "";
+}
+
+.priotech-icon-home-1:before {
+  content: "";
+}
+
+.priotech-icon-instagram-o:before {
+  content: "";
+}
+
+.priotech-icon-left-l:before {
+  content: "";
+}
+
+.priotech-icon-linkedin-in:before {
+  content: "";
+}
+
+.priotech-icon-list-ul:before {
+  content: "";
+}
+
+.priotech-icon-mail-o:before {
+  content: "";
+}
+
+.priotech-icon-map-marker1:before {
+  content: "";
+}
+
+.priotech-icon-money-convert:before {
+  content: "";
+}
+
+.priotech-icon-movies:before {
+  content: "";
+}
+
+.priotech-icon-online-support:before {
+  content: "";
+}
+
+.priotech-icon-pay:before {
+  content: "";
+}
+
+.priotech-icon-phone2:before {
+  content: "";
+}
+
+.priotech-icon-play-circle:before {
+  content: "";
+}
+
+.priotech-icon-play-fill:before {
+  content: "";
+}
+
+.priotech-icon-play:before {
+  content: "";
+}
+
+.priotech-icon-plus-circle-o:before {
+  content: "";
+}
+
+.priotech-icon-plus-m:before {
+  content: "";
+}
+
+.priotech-icon-post-on:before {
+  content: "";
+}
+
+.priotech-icon-quickview1:before {
+  content: "";
+}
+
+.priotech-icon-quote-left:before {
+  content: "";
+}
+
+.priotech-icon-quote1:before {
+  content: "";
+}
+
+.priotech-icon-rating-group:before {
+  content: "";
+}
+
+.priotech-icon-repeat-wl:before {
+  content: "";
+}
+
+.priotech-icon-reply-line:before {
+  content: "";
+}
+
+.priotech-icon-right-l:before {
+  content: "";
+}
+
+.priotech-icon-search-o:before {
+  content: "";
+}
+
+.priotech-icon-search1:before {
+  content: "";
+}
+
+.priotech-icon-setting:before {
+  content: "";
+}
+
+.priotech-icon-shake-hands:before {
+  content: "";
+}
+
+.priotech-icon-share-all:before {
+  content: "";
+}
+
+.priotech-icon-shopping-bag:before {
+  content: "";
+}
+
+.priotech-icon-shoppingcart-o:before {
+  content: "";
+}
+
+.priotech-icon-sliders-v:before {
+  content: "";
+}
+
+.priotech-icon-telephone:before {
+  content: "";
+}
+
+.priotech-icon-th-large-o:before {
+  content: "";
+}
+
+.priotech-icon-tools:before {
+  content: "";
+}
+
+.priotech-icon-truck:before {
+  content: "";
+}
+
+.priotech-icon-twitter-o:before {
+  content: "";
+}
+
+.priotech-icon-two-line:before {
+  content: "";
+}
+
+.priotech-icon-upload1:before {
+  content: "";
+}
+
+.priotech-icon-verification:before {
+  content: "";
+}
+
+.priotech-icon-adobe:before {
+  content: "";
+}
+
+.priotech-icon-amazon:before {
+  content: "";
+}
+
+.priotech-icon-android:before {
+  content: "";
+}
+
+.priotech-icon-angular:before {
+  content: "";
+}
+
+.priotech-icon-apper:before {
+  content: "";
+}
+
+.priotech-icon-apple:before {
+  content: "";
+}
+
+.priotech-icon-atlassian:before {
+  content: "";
+}
+
+.priotech-icon-behance:before {
+  content: "";
+}
+
+.priotech-icon-bitbucket:before {
+  content: "";
+}
+
+.priotech-icon-bitcoin:before {
+  content: "";
+}
+
+.priotech-icon-bity:before {
+  content: "";
+}
+
+.priotech-icon-bluetooth:before {
+  content: "";
+}
+
+.priotech-icon-btc:before {
+  content: "";
+}
+
+.priotech-icon-centos:before {
+  content: "";
+}
+
+.priotech-icon-chrome:before {
+  content: "";
+}
+
+.priotech-icon-codepen:before {
+  content: "";
+}
+
+.priotech-icon-cpanel:before {
+  content: "";
+}
+
+.priotech-icon-discord:before {
+  content: "";
+}
+
+.priotech-icon-dochub:before {
+  content: "";
+}
+
+.priotech-icon-docker:before {
+  content: "";
+}
+
+.priotech-icon-dribbble:before {
+  content: "";
+}
+
+.priotech-icon-dropbox:before {
+  content: "";
+}
+
+.priotech-icon-drupal:before {
+  content: "";
+}
+
+.priotech-icon-ebay:before {
+  content: "";
+}
+
+.priotech-icon-facebook-f:before {
+  content: "";
+}
+
+.priotech-icon-facebook:before {
+  content: "";
+}
+
+.priotech-icon-figma:before {
+  content: "";
+}
+
+.priotech-icon-firefox:before {
+  content: "";
+}
+
+.priotech-icon-google-plus:before {
+  content: "";
+}
+
+.priotech-icon-google:before {
+  content: "";
+}
+
+.priotech-icon-grunt:before {
+  content: "";
+}
+
+.priotech-icon-gulp:before {
+  content: "";
+}
+
+.priotech-icon-html5:before {
+  content: "";
+}
+
+.priotech-icon-joomla:before {
+  content: "";
+}
+
+.priotech-icon-link-brand:before {
+  content: "";
+}
+
+.priotech-icon-linkedin:before {
+  content: "";
+}
+
+.priotech-icon-mailchimp:before {
+  content: "";
+}
+
+.priotech-icon-opencart:before {
+  content: "";
+}
+
+.priotech-icon-paypal:before {
+  content: "";
+}
+
+.priotech-icon-pinterest-p:before {
+  content: "";
+}
+
+.priotech-icon-reddit:before {
+  content: "";
+}
+
+.priotech-icon-skype:before {
+  content: "";
+}
+
+.priotech-icon-slack:before {
+  content: "";
+}
+
+.priotech-icon-snapchat:before {
+  content: "";
+}
+
+.priotech-icon-spotify:before {
+  content: "";
+}
+
+.priotech-icon-trello:before {
+  content: "";
+}
+
+.priotech-icon-twitter:before {
+  content: "";
+}
+
+.priotech-icon-vimeo:before {
+  content: "";
+}
+
+.priotech-icon-whatsapp:before {
+  content: "";
+}
+
+.priotech-icon-wordpress:before {
+  content: "";
+}
+
+.priotech-icon-yoast:before {
+  content: "";
+}
+
+.priotech-icon-youtube:before {
+  content: "";
+}
+
+.priotech-icon-360:before {
+  content: "";
+}
+
+.priotech-icon-Call:before {
+  content: "";
+}
+
+.priotech-icon-Check-mark:before {
+  content: "";
+}
+
+.priotech-icon-Clip-path-group:before {
+  content: "";
+}
+
+.priotech-icon-Mail:before {
+  content: "";
+}
+
+.priotech-icon-Online_Support:before {
+  content: "";
+}
+
+.priotech-icon-arrow-down:before {
+  content: "";
+}
+
+.priotech-icon-arrow-left:before {
+  content: "";
+}
+
+.priotech-icon-arrow-right:before {
+  content: "";
+}
+
+.priotech-icon-arrow-up:before {
+  content: "";
+}
+
+.priotech-icon-bars:before {
+  content: "";
+}
+
+.priotech-icon-bullet-list-line2:before {
+  content: "";
+}
+
+.priotech-icon-caret-down:before {
+  content: "";
+}
+
+.priotech-icon-caret-left:before {
+  content: "";
+}
+
+.priotech-icon-caret-right:before {
+  content: "";
+}
+
+.priotech-icon-caret-up:before {
+  content: "";
+}
+
+.priotech-icon-cart-1:before {
+  content: "";
+}
+
+.priotech-icon-cart-empty:before {
+  content: "";
+}
+
+.priotech-icon-cart:before {
+  content: "";
+}
+
+.priotech-icon-check-square:before {
+  content: "";
+}
+
+.priotech-icon-chevron-down:before {
+  content: "";
+}
+
+.priotech-icon-chevron-left:before {
+  content: "";
+}
+
+.priotech-icon-chevron-right:before {
+  content: "";
+}
+
+.priotech-icon-chevron-up:before {
+  content: "";
+}
+
+.priotech-icon-circle:before {
+  content: "";
+}
+
+.priotech-icon-cloud-download-alt:before {
+  content: "";
+}
+
+.priotech-icon-comment:before {
+  content: "";
+}
+
+.priotech-icon-comments:before {
+  content: "";
+}
+
+.priotech-icon-compare:before {
+  content: "";
+}
+
+.priotech-icon-contact:before {
+  content: "";
+}
+
+.priotech-icon-credit-card:before {
+  content: "";
+}
+
+.priotech-icon-delivery-truck:before {
+  content: "";
+}
+
+.priotech-icon-dot-circle:before {
+  content: "";
+}
+
+.priotech-icon-edit:before {
+  content: "";
+}
+
+.priotech-icon-envelope:before {
+  content: "";
+}
+
+.priotech-icon-expand-alt:before {
+  content: "";
+}
+
+.priotech-icon-external-link-alt:before {
+  content: "";
+}
+
+.priotech-icon-eye_1:before {
+  content: "";
+}
+
+.priotech-icon-file-alt:before {
+  content: "";
+}
+
+.priotech-icon-file-archive:before {
+  content: "";
+}
+
+.priotech-icon-filter:before {
+  content: "";
+}
+
+.priotech-icon-fire1:before {
+  content: "";
+}
+
+.priotech-icon-folder-open:before {
+  content: "";
+}
+
+.priotech-icon-folder:before {
+  content: "";
+}
+
+.priotech-icon-frown:before {
+  content: "";
+}
+
+.priotech-icon-gift:before {
+  content: "";
+}
+
+.priotech-icon-grid-view-line:before {
+  content: "";
+}
+
+.priotech-icon-grip-horizontal:before {
+  content: "";
+}
+
+.priotech-icon-heart-fill:before {
+  content: "";
+}
+
+.priotech-icon-heart:before {
+  content: "";
+}
+
+.priotech-icon-history:before {
+  content: "";
+}
+
+.priotech-icon-home:before {
+  content: "";
+}
+
+.priotech-icon-info-circle:before {
+  content: "";
+}
+
+.priotech-icon-instagram:before {
+  content: "";
+}
+
+.priotech-icon-level-up-alt:before {
+  content: "";
+}
+
+.priotech-icon-list:before {
+  content: "";
+}
+
+.priotech-icon-map-marker-check:before {
+  content: "";
+}
+
+.priotech-icon-meh:before {
+  content: "";
+}
+
+.priotech-icon-minus-circle:before {
+  content: "";
+}
+
+.priotech-icon-minus:before {
+  content: "";
+}
+
+.priotech-icon-mobile-android-alt:before {
+  content: "";
+}
+
+.priotech-icon-money-bill:before {
+  content: "";
+}
+
+.priotech-icon-money:before {
+  content: "";
+}
+
+.priotech-icon-paper-plane:before {
+  content: "";
+}
+
+.priotech-icon-pencil-alt:before {
+  content: "";
+}
+
+.priotech-icon-plus-circle:before {
+  content: "";
+}
+
+.priotech-icon-plus:before {
+  content: "";
+}
+
+.priotech-icon-quickview:before {
+  content: "";
+}
+
+.priotech-icon-random:before {
+  content: "";
+}
+
+.priotech-icon-rating-stroke:before {
+  content: "";
+}
+
+.priotech-icon-rating:before {
+  content: "";
+}
+
+.priotech-icon-repeat:before {
+  content: "";
+}
+
+.priotech-icon-reply-all:before {
+  content: "";
+}
+
+.priotech-icon-reply:before {
+  content: "";
+}
+
+.priotech-icon-search-plus:before {
+  content: "";
+}
+
+.priotech-icon-search:before {
+  content: "";
+}
+
+.priotech-icon-shield-check:before {
+  content: "";
+}
+
+.priotech-icon-shopping-basket:before {
+  content: "";
+}
+
+.priotech-icon-shopping-cart:before {
+  content: "";
+}
+
+.priotech-icon-sign-out-alt:before {
+  content: "";
+}
+
+.priotech-icon-smile:before {
+  content: "";
+}
+
+.priotech-icon-spinner:before {
+  content: "";
+}
+
+.priotech-icon-square:before {
+  content: "";
+}
+
+.priotech-icon-star:before {
+  content: "";
+}
+
+.priotech-icon-store:before {
+  content: "";
+}
+
+.priotech-icon-sync:before {
+  content: "";
+}
+
+.priotech-icon-sync_alt:before {
+  content: "";
+}
+
+.priotech-icon-tachometer-alt:before {
+  content: "";
+}
+
+.priotech-icon-th-large:before {
+  content: "";
+}
+
+.priotech-icon-th-list:before {
+  content: "";
+}
+
+.priotech-icon-thumbtack:before {
+  content: "";
+}
+
+.priotech-icon-ticket:before {
+  content: "";
+}
+
+.priotech-icon-times-circle:before {
+  content: "";
+}
+
+.priotech-icon-times:before {
+  content: "";
+}
+
+.priotech-icon-trophy-alt:before {
+  content: "";
+}
+
+.priotech-icon-user-headset:before {
+  content: "";
+}
+
+.priotech-icon-user-shield:before {
+  content: "";
+}
+
+.priotech-icon-user:before {
+  content: "";
+}
+
+.priotech-icon-video:before {
+  content: "";
+}
+
+.priotech-icon-wishlist-empty:before {
+  content: "";
+}
+
+.priotech-icon-wishlist:before {
+  content: "";
+}
+
